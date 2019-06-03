@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>WebshopServlet</servlet-name>
+  	<display-name>WebshopServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.bh08.servlet.WebshopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>WebshopServlet</servlet-name>
+  	<url-pattern>/WebshopServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
